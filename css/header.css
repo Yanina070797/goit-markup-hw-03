@@ -1,0 +1,60 @@
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #e7e9fc;
+
+}
+
+.logo-header {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33333;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+
+.logo-header .part-of-the-logo {
+    color: #4d5ae5;
+}
+
+.navigation-links {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.navigation-links:hover, .navigation-links:focus {
+    color: #404bbf;
+}
+
+.address-links {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-style: normal
+}
+
+.address-links:hover, .address-links:focus {
+    color: #404bbf;
+}
+
+.header .container {
+    display: flex;
+    margin: 24px 15px;
+    justify-content: space-between;
+}
+
+.header .navigation ul {
+    display: flex;
+    gap: 40px;
+}
+
+.header address ul {
+    display: flex;
+    gap: 40px;
+}
