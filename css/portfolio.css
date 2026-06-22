@@ -12,7 +12,8 @@
 .container .ul-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-text-container {
@@ -47,4 +48,8 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.ul-container img {
+    display: block;
 }
