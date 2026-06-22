@@ -12,6 +12,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
+    margin: 24px 76px 24px 15px;
 }
 
 .logo-header .part-of-the-logo {
@@ -24,6 +25,8 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    display: block;
+    padding: 24px 0;
 }
 
 .navigation-links:hover, .navigation-links:focus {
@@ -36,7 +39,9 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal
+    font-style: normal;
+    display: block;
+    padding: 24px 0;
 }
 
 .address-links:hover, .address-links:focus {
@@ -45,16 +50,15 @@
 
 .header .container {
     display: flex;
-    margin: 24px 15px;
-    justify-content: space-between;
 }
 
-.header .navigation ul {
+.header .navigation .container {
     display: flex;
     gap: 40px;
 }
 
-.header address ul {
+.header .address .container {
     display: flex;
     gap: 40px;
+    margin-left: 340px;
 }

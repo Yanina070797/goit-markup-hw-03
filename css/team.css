@@ -1,18 +1,26 @@
 .team {
     background-color: #f4f4fd;
-    display: flex;
-    flex-direction: column;
-    gap: 72px;
     padding: 120px 0;
 }
 
 .team .container {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.container .ul-container {
     display: flex;
     gap: 24px;
 }
 
 .team .team-box {
     background-color: #fff;
+    border-radius: 0 0 4px 4px;
+}
+
+.team-box img {
+    display: block;
 }
 
 .team .title {
@@ -31,6 +39,8 @@
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .team .team-department {
@@ -40,4 +50,5 @@
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    margin-bottom: 32px;
 }

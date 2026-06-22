@@ -6,12 +6,10 @@ body {
     font-family: "Roboto", sans-serif;
     color: #2e2f42;
     background-color: #fff;
-}
-
-body .container {
     max-width: 1158px;
     margin: 0 auto;
 }
+
 
 a {
     text-decoration: none;
@@ -23,7 +21,12 @@ ul {
     padding: 0;
 }
 
-.features .title {
+h1, h2, h3, p {
+    margin: 0;
+}
+
+
+.sr-only {
     position: absolute;
     white-space: nowrap;
     width: 1px;
