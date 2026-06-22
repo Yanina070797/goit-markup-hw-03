@@ -12,7 +12,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
-    margin: 24px 76px 24px 15px;
+    margin: 24px 76px 24px 0px;
 }
 
 .logo-header .part-of-the-logo {
@@ -57,8 +57,11 @@
     gap: 40px;
 }
 
+.header .address {
+    margin-left: auto;
+}
+
 .header .address .container {
     display: flex;
     gap: 40px;
-    margin-left: 340px;
 }
